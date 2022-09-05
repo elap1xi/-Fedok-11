@@ -1,10 +1,16 @@
 #include <stdio.h>
 main(){
-	
+	// 문자열 출력
 	printf("Hello World");
+	
+	// 변수 정의 및 출력
 	int a, b, c;
 	a=4, b=3, c=9;
-	printf("\n%d",a+b+c);
+	printf("%d",a); // 4
+	printf("%d",b); // 3
+	printf("%d",a+b+c); // 16
+	printf("%d",a*b*c); //108
+	
 	
 	char s1[10];
 	scanf("%s",&s1);
