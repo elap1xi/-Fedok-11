@@ -11,17 +11,19 @@ main(){
 	printf("%d",a+b+c); // 16
 	printf("%d",a*b*c); //108
 	
-	
+	// 문자열 입력 및 입력값 출력
 	char s1[10];
 	scanf("%s",&s1);
 	printf("%s",s1);
 	
+	// 반복문 (for 문)
 	int i;
 	for (i=0; i<30; i++)
 	{
 		printf("Hello\n");
 	}
 	
+	// A단까지 출력
 	int a,i,j;
 	printf("수 입력: ");
 	scanf("%d",&a);
@@ -34,6 +36,7 @@ main(){
 		}
 	}
 	
+	// if문 예제
 	int a;
 	printf("성적을 입력하세요");
 	scanf("%d",&a);
