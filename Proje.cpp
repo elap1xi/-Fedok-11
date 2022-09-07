@@ -43,13 +43,44 @@ main(){
 	// if, else if 문
 	int a;
 	scanf("%d",&a);
-	if (a>=80 && a<=100){
+	if (a>=80 && a<=100){	//80이상, 100이하인 경우 A출력
 		printf("A");
-	} else if(a>=70){
+	} else if(a>=70){	//70이상, 80미만인 경우 B출력
 		printf("B");
-	} else {
+	} else {		//위의 두 조건의 나머지 경우 C출력
 		printf("C");
 	}
+	
+	// 조건문 예제1
+	int a;
+	scanf("%d",&a);
+	if (a>=90){
+		printf("A");
+	} else if(a>=80){
+		printf("B");
+	} else if(a>=70){
+		printf("C");
+	} else {
+		printf("D");
+	}
+	
+	// 조건문 예제 2
+	int x;
+	scanf("%d",&x);
+	if(x>=1 && x<=12){
+		if(x>=3 && x<=5){
+			printf("봄");
+		} else if(x>=6 && x<=8){
+			printf("여름");
+		} else if(x>=9 && x<=11){
+			printf("가을");
+		} else {
+			printf("겨울");
+		}
+	} else {
+		printf("1~12 사이의 숫자를 입력해주세요");
+	}
+	
 	
 	// 반복문 (for 문)
 	int i;
