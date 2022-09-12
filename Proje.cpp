@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.h> 	// studio.h가 아니고 stdio.h
 main(){
 	// 문자열 출력
 	printf("Hello World");
@@ -106,7 +106,7 @@ main(){
 		printf("1~12 사이의 숫자를 입력해주세요");
 	}
 	
-	// 우리 이거는 아직 
+	// 우리 이거는 아직 안
 	
 	// 반복문 (for 문)
 	int i;
@@ -127,5 +127,6 @@ main(){
 			printf("\n%d x %d = %d",i,j,i*j);
 		}
 	}
+	return 0; 	//코드 종료
 }
 
