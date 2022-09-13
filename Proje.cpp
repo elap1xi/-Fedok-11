@@ -1,4 +1,4 @@
-#include <stdio.h> 	// studio.h가 아니고 stdio.h
+#include <stdio.h> 		// studio.h가 아니고 stdio.h
 main(){
 	// 문자열 출력
 	printf("Hello World");
