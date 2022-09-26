@@ -127,6 +127,23 @@ main(){
 		printf("%d\n",a);
 	}				// 1부터 100까지 출력
 	
+	// 7단 출력
+	int a;
+	for(a=1; a<=9; a++){
+		printf("7 * %d = %d\n",a,7*a);
+	}	
+	
+	// 2단부터 9단까지 출력(중첩 for문)
+	int a,j;
+	for (a=2; a<10; a++)
+	{
+		for (j=11; j<10; j++)
+		{
+			printf("%d * %d = %d\n",a,j,a*j);
+		}
+		printf("\n");
+	}
+	
 	// A단까지 출력
 	int a,i,j;
 	printf("수 입력: ");
