@@ -151,6 +151,15 @@ main(){
 		printf("%d\n",b);
 	}
 	
+	// 입력받은 값 약수 출력
+	int a,b;
+	scanf("%d",&a);
+	for(b=1; b<=a; b++){
+		if(a%b==0){
+			printf("%d ",b);
+		}
+	}
+	
 	// A단까지 출력
 	int a,i,j;
 	printf("수 입력: ");
