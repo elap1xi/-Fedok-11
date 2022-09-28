@@ -144,6 +144,13 @@ main(){
 		printf("\n");
 	}
 	
+	// 1부터 입력받은 값 까지 출력
+	int a, b;
+	scanf("%d",&a);
+	for(b=1; b<=a; b++){
+		printf("%d\n",b);
+	}
+	
 	// A단까지 출력
 	int a,i,j;
 	printf("수 입력: ");
