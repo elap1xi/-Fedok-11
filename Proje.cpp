@@ -188,19 +188,6 @@ main(){
 		printf("\n");
 	}
 	
-	
-	// A단까지 출력
-	int a,i,j;
-	printf("수 입력: ");
-	scanf("%d",&a);
-	for (i=1; i<a+1; i++)
-	{
-		printf("\n\n====%d 단====",i);
-		for (j=1; j<10; j++)
-		{
-			printf("\n%d x %d = %d",i,j,i*j);
-		}
-	}
 	return 0; 	//코드 종료
 }
 
