@@ -228,6 +228,17 @@ main(){
 		printf("합=%d\n", sum[k]);
 	}
 	
+	//예제 3
+	int n, i;
+	scanf("%d", &n);
+	while(n--){
+		int k, sum = 0;
+		scanf("%d", &k);
+		for(i=1; i<=k; i++){
+			sum += i;
+		}
+		printf("합: %d\n", sum);
+	}
 	
 	
 	
