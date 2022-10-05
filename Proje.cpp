@@ -214,6 +214,26 @@ main(){
 		printf("합 = %d\n",sum);	       //ex) 출력 : 1 + 2 + 3 + 4 + 5 = 55
 	}
 	
+	// 예제 2
+	int n, i, sum[101];
+	sum[0] = 0;
+	scanf("%d", &n);
+	for(i=1; i<=100; i++){
+		sum[i] = sum[i-1]+i;
+	}
+	while(n>0){
+		n = n-1;
+		int k;
+		scanf("%d", &k);
+		printf("합=%d\n", sum[k]);
+	}
+	
+	
+	
+	
+	
+	
+	
 	
 	return 0; 	//코드 종료
 }
