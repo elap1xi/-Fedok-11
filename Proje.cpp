@@ -201,7 +201,8 @@ main(){
 	int com[3][3] = {{23,1,0},{11,12,7},{7,8,9}};
 	printf("%d", com[1][2]);
 	
-	// 예제
+	
+	// 예제 1
 	int n, k, i, sum;
 	scanf("%d", &n);		//질문 횟수
 	while(n>0){
@@ -240,7 +241,18 @@ main(){
 		printf("합: %d\n", sum);
 	}
 	
-	
+	// 예제 4
+	int n, i, sum[101];
+	sum[0] = 0;
+	scanf("%d", &n);
+	for(i=1; i<=100; i++){
+		sum[i] = sum[i-1] + i;
+	}
+	while(n--){
+		int k;
+		scanf("%d", &k);
+		printf("합: %d\n", sum[k]);
+	}
 	
 	
 	
