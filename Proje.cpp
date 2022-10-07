@@ -257,14 +257,27 @@ main(){
 	// 함수
 	#include <stdio.h>
 	int max(int a, int b){
-	if(a>b) return a;
-	else return b;
+		if(a>b) return a;
+		else return b;
 	}
 	main(){
-	int a,b;
-	scanf("%d %d",&a,&b);
-	printf("%d", max(a,b));		//여기서 259번째 줄로 이동
+		int a,b;
+		scanf("%d %d",&a,&b);
+		printf("%d", max(a,b));		//여기서 259번째 줄로 이동
 	
+		
+	// 함수_2
+	#include <stdio.h>
+	int max(int a, int b){
+		if(a>b) return a;
+		else return b;
+	}
+	main(){
+		int a,b,c;
+		scanf("%d %d %d",&a,&b,&c);
+		printf("%d", max(a,max(b, c)));
+
+	}
 	
 	
 	return 0; 	//코드 종료
