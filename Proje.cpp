@@ -294,31 +294,23 @@ main(){
 		printf("%d",ans);
 	}
 	
-#include‹stdio.h>
-Seint isPrime(int x){
-/6
-int cnt=0;
-7
-8
-for (int i=1;i<=x;i++)
-maX (0, 18) if (0(18)
-if(x%i==0) cnt++;
-9
-if(cnt==2) return 1;
-10
-11-}
-else return 0; cos CI (21 (2)
-12emain k
-13
-int n;
-14
-scanf ("%d", &n);
-¡=0, 0410, an
-15
-if(isprime (n)==1) printf("소 수크): 40 ,ans=
-16
-else printf("합성수 ");
-	
+	// 소수 합성수
+	#include <stdio.h>
+	int isPrime(int x){
+		int cnt=0;
+		for (int i=1;i<=x;i++)
+			if(x%i==0) cnt++;
+		if(cnt==2) return 1;
+		else return 0;
+	}
+	main(){
+		int n;
+		scanf("%d", &n);
+		if(isPrime(n)==1) printf("소수");
+		else printf("합성수");
+	}
+		
+		
 	return 0; 	//코드 종료
 }
 
