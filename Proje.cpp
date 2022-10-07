@@ -310,6 +310,17 @@ main(){
 		else printf("합성수");
 	}
 		
+
+        #include‹stdio.h>
+int 1cm(int a, int b){
+for (int isa; i<=a*b; i++) if (i%a==0 and 1%b==0) return i;
+}
+main(){
+int n, m;
+scanf("%d %d" &n,
+&m);
+printf("%d\n", 1cm(n, m));
+}
 		
 	return 0; 	//코드 종료
 }
