@@ -266,7 +266,7 @@ main(){
 		printf("%d", max(a,b));		//여기서 259번째 줄로 이동
 	
 		
-	// 함수_2
+	// 함수_ 2
 	#include <stdio.h>
 	int max(int a, int b){
 		if(a>b) return a;
@@ -277,6 +277,21 @@ main(){
 		scanf("%d %d %d",&a,&b,&c);
 		printf("%d", max(a,max(b, c)));
 
+	}
+	
+	// 함수_ 3
+	#include <stdio.h>
+	int max(int a, int b){
+		if(a<b) return b;
+		else return a;
+	}
+	main(){
+		int sc[10]={18,77,68,54,99,15,56,97,64,48};
+		int i, ans=0;
+		for(i=0; i<10; i++){
+			ans = max(ans,sc[i]);
+		}
+		printf("%d",ans);
 	}
 	
 	
