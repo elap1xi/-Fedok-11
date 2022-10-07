@@ -254,7 +254,16 @@ main(){
 		printf("합: %d\n", sum[k]);
 	}
 	
-	
+	// 함수
+	#include <stdio.h>
+	int max(int a, int b){
+	if(a>b) return a;
+	else return b;
+	}
+	main(){
+	int a,b;
+	scanf("%d %d",&a,&b);
+	printf("%d", max(a,b));
 	
 	
 	
