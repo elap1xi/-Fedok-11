@@ -263,7 +263,7 @@ main(){
 	main(){
 	int a,b;
 	scanf("%d %d",&a,&b);
-	printf("%d", max(a,b));
+	printf("%d", max(a,b));		//여기서 259번째 줄로 이동
 	
 	
 	
