@@ -309,19 +309,22 @@ main(){
 		if(isPrime(n)==1) printf("소수");
 		else printf("합성수");
 	}
+	
 		
-
-        #include‹stdio.h>
-int 1cm(int a, int b){
-for (int isa; i<=a*b; i++) if (i%a==0 and 1%b==0) return i;
-}
-main(){
-int n, m;
-scanf("%d %d" &n,
-&m);
-printf("%d\n", 1cm(n, m));
-}
+	// 최소 공배수 
+        #include <stdio.h>
+	int lcm(int a, int b){
+		for (int i=a; i<=a*b; i++) 
+			if (i%a==0 and i%b==0) 
+				return i;
+	}
+	main(){
+		int n, m;
+		scanf("%d %d", &n, &m);
+		printf("%d\n", lcm(n, m));
+	}
 		
+	
 	return 0; 	//코드 종료
 }
 
