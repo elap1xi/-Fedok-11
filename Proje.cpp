@@ -369,6 +369,19 @@ main(){
 		}
 	}
 
+	// 함수를 이용한 n단 출력
+	#include <stdio.h>
+	void printTable(int x){
+		int i;
+		for(i=1; i<=9; i++){
+			printf("%d * %d = %d\n",x,i,x*i);
+		}
+	}
+	main(){
+		int n;
+		scanf("%d", &n);
+		printTable(n);
+}
 	return 0; 	//코드 종료
 }
 
