@@ -324,7 +324,23 @@ main(){
 		printf("%d\n", lcm(n, m));
 	}
 		
-	
+	// 입력받은 값 만큼 * 피라미드 출력 (void)
+	#include <Stdio.h>
+	void star(int x){
+		for(int i=1; i<=x; i++){
+			printf("*");
+		}
+		printf("\n");
+	}
+	main(){
+		int n, i;
+		scanf("%d", &n);
+		for(i=1; i<=n; i++){
+			star(i);
+		}
+	}
+		
+		
 	return 0; 	//코드 종료
 }
 
