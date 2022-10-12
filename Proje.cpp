@@ -325,7 +325,7 @@ main(){
 	}
 		
 	// 입력받은 값 만큼 * 피라미드 출력 (void)
-	#include <Stdio.h>
+	#include <stdio.h>
 	void star(int x){
 		for(int i=1; i<=x; i++){
 			printf("*");
