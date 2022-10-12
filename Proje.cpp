@@ -398,6 +398,21 @@ main(){
 		}
 		printf("%d\n",ans);
 	}
+	
+	//
+	#include <stdio.h>
+	int min(int x, int y){
+		if(x<y) return x;
+		else return y;
+	}
+	main(){
+		int sc[10] = {18,77,68,54,99,15,56,97,64,48};
+		int i, ans = 2147483647;
+		for(i=0; i<10; i++){
+			ans = min(ans, sc[i]);
+		}
+		printf("%d\n",ans);
+	}
 
 	return 0; 	//코드 종료
 }
